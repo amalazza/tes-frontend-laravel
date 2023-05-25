@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
         <a class="navbar-brand navbar-logo d-flex align-items-center justify-content-center" href="#">
-            <span class="text-white text-bold">LD</span>
+            <span class="text-white text-bold navbar-logo-text">{{ __('messages.nav_logo') }}</span>
         </a>
 
 
@@ -14,16 +14,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item navbar-text ms-lg-5">
-                    <a class="nav-link" href="#">MEMPELAI</a>
+                    <a class="nav-link" href="#">{{ __('messages.nav_link1') }}</a>
                 </li>
                 <li class="nav-item navbar-text ms-lg-5">
-                    <a class="nav-link" href="#">ACARA</a>
+                    <a class="nav-link" href="#">{{ __('messages.nav_link2') }}</a>
                 </li>
                 <li class="nav-item navbar-text ms-lg-5">
-                    <a class="nav-link" href="#">GALERI</a>
+                    <a class="nav-link" href="#">{{ __('messages.nav_link3') }}</a>
                 </li>
                 <li class="nav-item navbar-text ms-lg-5">
-                    <a class="nav-link" href="#">RSVP</a>
+                    <a class="nav-link" href="#">{{ __('messages.nav_link4') }}</a>
                 </li>
             </ul>
         </div>
